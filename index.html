@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 <title>Harmony Outdoors</title>
+
 <style>
 body {
 background: linear-gradient(to right, #8e9eab, #eef2f3);
-color: #23395d;
+color: #000000;
 font-family: Arial, sans-serif;
 }
 
@@ -84,41 +86,42 @@ document.getElementById("message").style.display = "block";
 
 <section id="products">
 <h2>Our Products</h2>
+
 <div class="product">
-  <img src="tent.jpg">
-  <h3>Camping Tent</h3>
-  <p>Weight: 5 lbs. // Capacity: 3 people // Material: Nylon</p>
+<img src="tent.jpg" alt="A camping tent">
+<h3>Camping Tent</h3>
+<p>Weight: 5 lbs. // Capacity: 3 people // Material: Nylon</p>
 </div>
 
 <div class="product">
-  <img src="sleepingbag.jpg"> 
-  <h3>Sleeping Bag</h3>
-  <p>Weight: 2 lbs. // Temperature Rating: 30°F // Material: Down</p>
+<img src="sleepingbag.jpg" alt="A sleeping bag">
+<h3>Sleeping Bag</h3>
+<p>Weight: 2 lbs. // Temperature Rating: 30°F // Material: Down</p>
 </div>
 
 <div class="product">
-  <img src="backpack.jpg">
-  <h3>Hiking Backpack</h3> 
-  <p>Capacity: 50L // Padding: Foam // Straps: Adjustable</p>
+<img src="backpack.jpg" alt="A hiking backpack">
+<h3>Hiking Backpack</h3>
+<p>Capacity: 50L // Padding: Foam // Straps: Adjustable</p>
 </div>
 </section>
 
 <section id="about">
-  <h2>About Us</h2>
+<h2>About Us</h2>
 
 <p>Harmony Outdoors provides high-quality outdoor gear for exploring nature. Founded in 2010, our mission is to help more people enjoy the healing power of the outdoors.</p>
 
 <form action="" onsubmit="thankYou()">
-  <label for="name">Name:</label>
-  <input type="text" id="name"><br>
+<label for="contact-name">Name:</label>
+<input type="text" id="contact-name"><br>
 
-  <label for="email">Email:</label> 
-  <input type="email" id="email"><br>
+<label for="email">Email:</label>
+<input type="email" id="email"><br>
 
-  <label for="message">Message:</label>
-  <textarea id="message"></textarea><br>
+<label for="message">Message:</label>
+<textarea id="message"></textarea><br>
 
-  <input type="submit" value="Submit">
+<input type="submit" value="Submit">
 </form>
 </section>
 
